@@ -3,6 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { AuroraBackground } from "./ui/aurora-background";
 import { TextGenerateEffect } from "./ui/text-generate-effect";
+import Navbar from "./Navbar";
 
 
 const aboutMe = `
@@ -13,6 +14,7 @@ I am a passionate developer, constantly learning and improving my skills. With a
 export function HeroSection() {
   return (
     <AuroraBackground>
+      <Navbar/>
       <motion.div
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -23,7 +25,7 @@ export function HeroSection() {
         }}
         className="relative flex flex-col gap-4 items-center justify-center px-4"
       >
-        <div className="text-3xl md:text-7xl font-bold dark:text-white text-center">
+        <div className="text-3xl md:text-7xl font-bold dark:text-white text-center mt-16">
         I&apos;m Naman Sharma
         </div>
         <div className="font-extralight text-base md:text-4xl dark:text-neutral-200 py-4">
