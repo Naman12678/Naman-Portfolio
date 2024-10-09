@@ -6,8 +6,7 @@ import { TextGenerateEffect } from "./ui/text-generate-effect";
 
 
 const aboutMe = `
-I'm a human.
-I breathe oxygen.
+I&apos;m a human.I breathe oxygen.
 I recharge my power center with vegetarian food.
 I am a passionate developer, constantly learning and improving my skills. With a strong background in web development and a focus on React and Tailwind CSS, I build user-friendly applications that solve real-world problems. Let's build something amazing together!`;
 
@@ -25,7 +24,7 @@ export function HeroSection() {
         className="relative flex flex-col gap-4 items-center justify-center px-4"
       >
         <div className="text-3xl md:text-7xl font-bold dark:text-white text-center">
-          I'm Naman Sharma
+        I&apos;m Naman Sharma
         </div>
         <div className="font-extralight text-base md:text-4xl dark:text-neutral-200 py-4">
           And this, is my Portfolio.
