@@ -3,18 +3,15 @@ import React from "react";
 import { motion } from "framer-motion";
 import { AuroraBackground } from "./ui/aurora-background";
 import { TextGenerateEffect } from "./ui/text-generate-effect";
-import Navbar from "./Navbar";
-
 
 const aboutMe = `
-I&apos;m a human.I breathe oxygen.
+I am a human.I breathe oxygen.
 I recharge my power center with vegetarian food.
 I am a passionate developer, constantly learning and improving my skills. With a strong background in web development and a focus on React and Tailwind CSS, I build user-friendly applications that solve real-world problems. Let's build something amazing together!`;
 
 export function HeroSection() {
   return (
     <AuroraBackground>
-      <Navbar/>
       <motion.div
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -25,7 +22,7 @@ export function HeroSection() {
         }}
         className="relative flex flex-col gap-4 items-center justify-center px-4"
       >
-        <div className="text-3xl md:text-7xl font-bold dark:text-white text-center mt-16">
+        <div className="text-3xl md:text-7xl font-bold dark:text-white text-center mt-32">
         I&apos;m Naman Sharma
         </div>
         <div className="font-extralight text-base md:text-4xl dark:text-neutral-200 py-4">
