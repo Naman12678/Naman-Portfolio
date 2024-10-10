@@ -6,7 +6,7 @@ import { TextGenerateEffect } from "./ui/text-generate-effect";
 
 const aboutMe = `
 I am a human.I breathe oxygen.
-I recharge my power center with vegetarian food.
+I recharge myself with vegetarian food.
 I am a passionate developer, constantly learning and improving my skills. With a strong background in web development and a focus on React and Tailwind CSS, I build user-friendly applications that solve real-world problems. Let's build something amazing together!`;
 
 export function HeroSection() {
