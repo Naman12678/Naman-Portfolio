@@ -1,0 +1,60 @@
+{
+    "projects": [
+      {
+        "id": 1,
+        "title": "Portfolio Website",
+        "slug": "portfolio-website",
+        "description": "A personal portfolio website to showcase my projects and skills, built with React, Vite, and Tailwind CSS.",
+        "techStack": ["React", "Vite", "Tailwind CSS", "JavaScript"],
+        "githubLink": "https://github.com/yourusername/portfolio-website",
+        "liveDemo": "https://yourportfolio.com",
+        "isFeatured": true,
+        "image": "/projects/portfolio.jpg"
+      },
+      {
+        "id": 2,
+        "title": "E-Learning Platform",
+        "slug": "e-learning-platform",
+        "description": "A full-stack application for students and teachers to interact, manage courses, and schedule classes. Built using MERN stack.",
+        "techStack": ["MongoDB", "Express.js", "React", "Node.js"],
+        "githubLink": "https://github.com/yourusername/e-learning-platform",
+        "liveDemo": "https://yourelearningplatform.com",
+        "isFeatured": true,
+        "image": "/projects/elearning.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Task Management App",
+        "slug": "task-management-app",
+        "description": "A productivity app to manage daily tasks with features like deadlines, reminders, and categories, built with Next.js and TypeScript.",
+        "techStack": ["Next.js", "TypeScript", "MongoDB"],
+        "githubLink": "https://github.com/yourusername/task-management-app",
+        "liveDemo": "https://yourtaskapp.com",
+        "isFeatured": false,
+        "image": "/projects/task-app.jpg"
+      },
+      {
+        "id": 4,
+        "title": "E-Commerce Store",
+        "slug": "e-commerce-store",
+        "description": "An e-commerce store with features like product listings, shopping cart, and payments integration using Stripe.",
+        "techStack": ["React", "Node.js", "MongoDB", "Stripe API"],
+        "githubLink": "https://github.com/yourusername/e-commerce-store",
+        "liveDemo": "https://yourecommercestore.com",
+        "isFeatured": false,
+        "image": "/projects/ecommerce.jpg"
+      },
+      {
+        "id": 5,
+        "title": "Blog Platform",
+        "slug": "blog-platform",
+        "description": "A platform for users to write and publish blog posts with features like user authentication, commenting, and tags.",
+        "techStack": ["Next.js", "TypeScript", "Firebase"],
+        "githubLink": "https://github.com/yourusername/blog-platform",
+        "liveDemo": "https://yourblogplatform.com",
+        "isFeatured": true,
+        "image": "/projects/blog-platform.jpg"
+      }
+    ]
+  }
+  
