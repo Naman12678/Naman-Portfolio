@@ -1,5 +1,4 @@
 'use client'
-import Link from 'next/link'
 import skillData from '../../data/skillList.json'
 import { BackgroundGradient } from '../../components/ui/background-gradient'
 
