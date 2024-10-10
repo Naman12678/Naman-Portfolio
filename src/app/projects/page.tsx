@@ -21,7 +21,7 @@ function Projects() {
             <div>
                 <div className="text-center">
                     <h2 className="text-base text-teal-600 font-semibold tracking-wide uppercase">My Projects</h2>
-                    <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">What I've Built</p>
+                    <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">{`What I've Built`}</p>
                 </div>
             </div>
             <div className='mt-10 mx-8'>
