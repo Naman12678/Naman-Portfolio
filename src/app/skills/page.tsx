@@ -16,7 +16,7 @@ function Skills() {
     const featuredSkills = skillData.skills.filter((skill: Skill) => skill.isFeatured)
 
     return (
-        <div className='py-12 bg-black h-auto md:h-[40rem] w-full rounded-md flex flex-col items-center justify-center relative overflow-hidden mx-auto md:py-0'>
+        <div className='py-12 bg-black h-auto md:h-[40rem] w-full rounded-md flex flex-col items-center justify-center relative overflow-hidden mx-auto md:py-0  mt-16'>
             <div>
                 <div className="text-center">
                     <h2 className="text-base text-teal-600 font-semibold tracking-wide uppercase">My Skills</h2>
