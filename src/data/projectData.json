@@ -5,9 +5,9 @@
         "title": "Portfolio Website",
         "slug": "portfolio-website",
         "description": "A personal portfolio website to showcase my projects and skills, built with React, Vite, and Tailwind CSS.",
-        "techStack": ["React", "Vite", "Tailwind CSS", "JavaScript"],
-        "githubLink": "https://github.com/yourusername/portfolio-website",
-        "liveDemo": "https://yourportfolio.com",
+        "techStack": ["Next.js", "Tailwind CSS", "JavaScript", "TypeScript", "Acertinity UI"],
+        "githubLink": "https://github.com/Naman12678/portfolio",
+        "liveDemo": "https://portfolio-sooty-two-85.vercel.app/",
         "isFeatured": true,
         "image": "/projects/portfolio.jpg"
       },
@@ -19,7 +19,7 @@
         "techStack": ["MongoDB", "Express.js", "React", "Node.js"],
         "githubLink": "https://github.com/yourusername/e-learning-platform",
         "liveDemo": "https://yourelearningplatform.com",
-        "isFeatured": true,
+        "isFeatured": false,
         "image": "/projects/elearning.jpg"
       },
       {
@@ -52,8 +52,40 @@
         "techStack": ["Next.js", "TypeScript", "Firebase"],
         "githubLink": "https://github.com/yourusername/blog-platform",
         "liveDemo": "https://yourblogplatform.com",
-        "isFeatured": true,
+        "isFeatured": false,
         "image": "/projects/blog-platform.jpg"
+      },
+      {
+        "id": 6,
+        "title": "Weather App",
+        "slug": "weather",
+        "description": "A simple Weather App to know the nearby weather",
+        "techStack": ["React", "JavaScript", "Tailwind CSS"],
+        "githubLink": "https://github.com/Naman12678/weather",
+        "liveDemo": "https://weather-sable-xi.vercel.app/",
+        "isFeatured": true,
+        "image": ""
+      },{
+        "id": 7,
+        "title": "Food Plaza",
+        "slug": "food-plaza",
+        "description": "A simple and efficient website to find the best recipe for your taste buds!!!",
+        "techStack": ["React", "JavaScript", "Tailwind CSS"],
+        "githubLink": "https://github.com/Naman12678/Food-Plaza",
+        "liveDemo": "https://food-plaza-three.vercel.app/",
+        "isFeatured": true,
+        "image": ""
+      },
+      {
+        "id": 8,
+        "title": "StudyMate",
+        "slug": "Mate-study",
+        "description": "An incomplete project containing the UI elements of online study buddy platform",
+        "techStack": ["React", "JavaScript", "Tailwind CSS"],
+        "githubLink": "https://github.com/Naman12678/MateStudy",
+        "liveDemo": "https://mate-study.vercel.app/",
+        "isFeatured": true,
+        "image": ""
       }
     ]
   }

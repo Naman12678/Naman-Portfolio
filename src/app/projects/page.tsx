@@ -17,7 +17,7 @@ function Projects() {
     const featuredProjects = projectData.projects.filter((project: Project) => project.isFeatured)
 
     return (
-        <div className='py-12 bg-black h-auto md:h-[40rem] w-full rounded-md flex flex-col items-center justify-center relative overflow-hidden mx-auto md:py-0'>
+        <div className='py-12 bg-black h-auto md:h-[40rem] w-full rounded-md flex flex-col items-center justify-center relative overflow-hidden mx-auto md:py-0 mt-28'>
             <div>
                 <div className="text-center">
                     <h2 className="text-base text-teal-600 font-semibold tracking-wide uppercase">My Projects</h2>

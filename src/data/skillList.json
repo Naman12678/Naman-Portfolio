@@ -6,7 +6,7 @@
       "slug": "react-development",
       "description": "Build powerful web applications using React, a popular JavaScript library for user interfaces.",
       "proficiency": "Expert",
-      "experience": "3 years",
+      "experience": "1 years",
       "isFeatured": true,
       "icon": "/skills/react.svg"
     },
@@ -16,7 +16,7 @@
       "slug": "tailwind-css",
       "description": "Create modern, responsive designs quickly using the utility-first CSS framework, Tailwind.",
       "proficiency": "Advanced",
-      "experience": "2 years",
+      "experience": "1 years",
       "isFeatured": true,
       "icon": "/skills/tailwind.svg"
     },
@@ -26,7 +26,7 @@
       "slug": "node-js",
       "description": "Develop scalable backend services using Node.js and its vast ecosystem of libraries.",
       "proficiency": "Advanced",
-      "experience": "3 years",
+      "experience": "1 years",
       "isFeatured": true,
       "icon": "/skills/node.svg"
     },
@@ -47,7 +47,7 @@
       "description": "Utilize MongoDB as a NoSQL database to manage and query large datasets efficiently.",
       "proficiency": "Intermediate",
       "experience": "1 year",
-      "isFeatured": false,
+      "isFeatured": true,
       "icon": "/skills/mongodb.svg"
     },
     {
@@ -55,14 +55,14 @@
       "title": "Express.js",
       "slug": "express-js",
       "description": "Build fast and lightweight web applications and APIs using the Express.js framework.",
-      "proficiency": "Advanced",
-      "experience": "2 years",
+      "proficiency": "Intermediate",
+      "experience": "1 years",
       "isFeatured": true,
       "icon": "/skills/express.svg"
     },
     {
       "id": 7,
-      "title": "Vite",
+      "title": " React Vite",
       "slug": "vite",
       "description": "Accelerate the development experience with Vite, a fast build tool and development server.",
       "proficiency": "Intermediate",
@@ -76,7 +76,7 @@
       "slug": "javascript",
       "description": "Master the most widely used programming language for building dynamic and interactive web applications.",
       "proficiency": "Expert",
-      "experience": "4 years",
+      "experience": "1 years",
       "isFeatured": true,
       "icon": "/skills/javascript.svg"
     }
