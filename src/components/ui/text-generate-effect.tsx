@@ -1,4 +1,4 @@
-"use client";
+"use client"; 
 import { useEffect } from "react";
 import { motion, stagger, useAnimate } from "framer-motion";
 import { cn } from "@/lib/utils";
@@ -28,7 +28,7 @@ export const TextGenerateEffect = ({
         },
         {
           duration,
-          delay: stagger(0.2),
+          delay: stagger(0.05), // Reduced delay to 0.05 for faster animation
         }
       );
     }
