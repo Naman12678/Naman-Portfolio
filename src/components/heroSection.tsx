@@ -24,12 +24,12 @@ export function HeroSection() {
         }}
         className="relative flex flex-col gap-4 items-center justify-center px-4"
       >
-        {/* Heading with margin for mobile screens */}
-        <div className="text-3xl md:text-7xl font-bold dark:text-white text-center mt-48 md:mt-36">
+        {/* Centered Heading */}
+        <div className="text-3xl md:text-7xl font-bold dark:text-white text-center mt-32 md:mt-36 mx-auto">
           I&apos;m Naman Sharma
         </div>
         
-        <div className="font-extralight text-base md:text-4xl dark:text-neutral-200 py-4">
+        <div className="font-extralight text-base md:text-4xl dark:text-neutral-200 py-4 text-center">
           And this, is my Portfolio.
         </div>
 
@@ -43,7 +43,7 @@ export function HeroSection() {
           View My CV
         </a>
 
-        <div className="font-extralight text-base md:text-4xl dark:text-neutral-200 py-4" id="about">
+        <div className="font-extralight text-base md:text-4xl dark:text-neutral-200 py-4 text-center" id="about">
           <div className="text-2xl md:text-4xl font-bold max-w-3xl mx-auto leading-relaxed">
             <TextGenerateEffect words={aboutMe} />
           </div>
