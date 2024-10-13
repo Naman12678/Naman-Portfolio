@@ -25,7 +25,7 @@ export function HeroSection() {
         className="relative flex flex-col gap-4 items-center justify-center px-4"
       >
         {/* Heading with margin for mobile screens */}
-        <div className="text-3xl md:text-7xl font-bold dark:text-white text-center mt-32 md:mt-36">
+        <div className="text-3xl md:text-7xl font-bold dark:text-white text-center mt-48 md:mt-36">
           I&apos;m Naman Sharma
         </div>
         
