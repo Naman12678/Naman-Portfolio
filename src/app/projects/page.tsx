@@ -1,6 +1,7 @@
 'use client'
 import projectData from '../../data/projectData.json'
 import { BackgroundGradient } from '../../components/ui/background-gradient'
+import Navbar from '@/components/Navbar'
 
 interface Project {
     id: number,
@@ -18,10 +19,10 @@ function Projects() {
 
     return (
         <div className='py-12 bg-black h-auto md:h-[40rem] w-full rounded-md flex flex-col items-center justify-center relative overflow-hidden mx-auto md:py-0'>
+            <Navbar/>
             <div>
                 <div className="text-center mt-28">
-                    <h2 className="text-base text-teal-600 font-semibold tracking-wide uppercase">My Projects</h2>
-                    <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">{`What I've Built`}</p>
+                    <p className="mt-48 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">{`What I've Built`}</p>
                 </div>
             </div>
             <div className='mt-10 mx-8'>
