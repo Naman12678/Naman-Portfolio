@@ -22,9 +22,11 @@ export function HeroSection() {
         }}
         className="relative flex flex-col gap-4 items-center justify-center px-4"
       >
-        <div className="text-3xl md:text-7xl font-bold dark:text-white text-center mt-32">
-        I&apos;m Naman Sharma
+        {/* Heading with margin for mobile screens */}
+        <div className="text-3xl md:text-7xl font-bold dark:text-white text-center mt-16 md:mt-36">
+          I&apos;m Naman Sharma
         </div>
+        
         <div className="font-extralight text-base md:text-4xl dark:text-neutral-200 py-4">
           And this, is my Portfolio.
         </div>
