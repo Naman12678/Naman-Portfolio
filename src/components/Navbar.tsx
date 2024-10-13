@@ -64,10 +64,10 @@ function Navbar({ className }: { className?: string }) {
                       setActive={setActive} active={active} item="Contact Me"
                     >
                       <div className="flex flex-col space-y-4 text-sm">
-                        <HoveredLink href="https://www.linkedin.com/in/naman-sharma-50588528b/" target="_blank">Linkedin</HoveredLink>
-                        <HoveredLink href="https://x.com/NamanSharm31165" target="_blank">X</HoveredLink>
-                        <HoveredLink href="https://ig.me/m/namansharma12678" target="_blank">Instagram</HoveredLink>
-                        <HoveredLink href="https://wa.me/917439342924" target="_blank">Whatsapp</HoveredLink>
+                        <HoveredLink href="https://www.linkedin.com/in/naman-sharma-50588528b/">Linkedin</HoveredLink>
+                        <HoveredLink href="https://x.com/NamanSharm31165">X</HoveredLink>
+                        <HoveredLink href="https://ig.me/m/namansharma12678">Instagram</HoveredLink>
+                        <HoveredLink href="https://wa.me/917439342924">Whatsapp</HoveredLink>
                         <HoveredLink href="mailto:namansharma12678@gmail.com">Mail</HoveredLink>
                       </div>
                     </MenuItem>
@@ -123,16 +123,16 @@ function Navbar({ className }: { className?: string }) {
                         ) : (
                             <ul className="space-y-6 text-white text-lg">
                                 <li>
-                                    <HoveredLink href="https://www.linkedin.com/in/naman-sharma-50588528b/" target="_blank" onClick={toggleMobileMenu}>Linkedin</HoveredLink>
+                                    <HoveredLink href="https://www.linkedin.com/in/naman-sharma-50588528b/" onClick={toggleMobileMenu}>Linkedin</HoveredLink>
                                 </li>
                                 <li>
-                                    <HoveredLink href="https://x.com/NamanSharm31165" target="_blank" onClick={toggleMobileMenu}>X</HoveredLink>
+                                    <HoveredLink href="https://x.com/NamanSharm31165" onClick={toggleMobileMenu}>X</HoveredLink>
                                 </li>
                                 <li>
-                                    <HoveredLink href="https://ig.me/m/namansharma12678" target="_blank" onClick={toggleMobileMenu}>Instagram</HoveredLink>
+                                    <HoveredLink href="https://ig.me/m/namansharma12678" onClick={toggleMobileMenu}>Instagram</HoveredLink>
                                 </li>
                                 <li>
-                                    <HoveredLink href="https://wa.me/917439342924" target="_blank" onClick={toggleMobileMenu}>Whatsapp</HoveredLink>
+                                    <HoveredLink href="https://wa.me/917439342924" onClick={toggleMobileMenu}>Whatsapp</HoveredLink>
                                 </li>
                                 <li>
                                     <HoveredLink href="mailto:namansharma12678@gmail.com" onClick={toggleMobileMenu}>Mail</HoveredLink>
