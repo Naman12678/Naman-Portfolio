@@ -65,7 +65,8 @@
         "liveDemo": "https://weather-sable-xi.vercel.app/",
         "isFeatured": true,
         "image": ""
-      },{
+      },
+      {
         "id": 7,
         "title": "Food Plaza",
         "slug": "food-plaza",
@@ -73,6 +74,17 @@
         "techStack": ["React", "JavaScript", "Tailwind CSS"],
         "githubLink": "https://github.com/Naman12678/Food-Plaza",
         "liveDemo": "https://food-plaza-three.vercel.app/",
+        "isFeatured": true,
+        "image": ""
+      },
+      {
+        "id": 7,
+        "title": "Currency Converter",
+        "slug": "currency-converter",
+        "description": "The Currency Converter project is a user-friendly web application built with React, Vite, and Tailwind CSS. It allows users to seamlessly convert amounts between various currencies using real-time data from the CoinMarketCap API. With a clean and responsive design, the application features a simple interface where users can select their desired currencies and input the amount to be converted.",
+        "techStack": ["React", "JavaScript", "Tailwind CSS"],
+        "githubLink": "https://github.com/Naman12678/CurrencyConverter",
+        "liveDemo": "https://currencyconverter-amber.vercel.app/",
         "isFeatured": true,
         "image": ""
       },
