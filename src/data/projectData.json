@@ -4,7 +4,7 @@
         "id": 1,
         "title": "Portfolio Website",
         "slug": "portfolio-website",
-        "description": "A personal portfolio website to showcase my projects and skills, built with React, Vite, and Tailwind CSS.",
+        "description": "The Portfolio Project is a dynamic and visually appealing web application designed to showcase my skills, projects, and professional experience. Built using Next.js and Tailwind CSS, this portfolio not only highlights a modern aesthetic but also leverages Acceternity UI for smooth animations, enhancing the overall user experience.",
         "techStack": ["Next.js", "Tailwind CSS", "JavaScript", "TypeScript", "Acertinity UI"],
         "githubLink": "https://github.com/Naman12678/portfolio",
         "liveDemo": "https://portfolio-sooty-two-85.vercel.app/",
@@ -70,7 +70,7 @@
         "id": 7,
         "title": "Food Plaza",
         "slug": "food-plaza",
-        "description": "A simple and efficient website to find the best recipe for your taste buds!!!",
+        "description": "The Food Plaza project is a web application designed to provide users with access to an extensive collection of food recipes, leveraging an API that stores about 2.3 million recipes. Built using React, Vite, and Tailwind CSS, this application offers a user-friendly platform where food enthusiasts can discover, explore, and share a wide variety of delicious recipes from different cuisines.",
         "techStack": ["React", "JavaScript", "Tailwind CSS"],
         "githubLink": "https://github.com/Naman12678/Food-Plaza",
         "liveDemo": "https://food-plaza-three.vercel.app/",
@@ -96,7 +96,7 @@
         "techStack": ["React", "JavaScript", "Tailwind CSS"],
         "githubLink": "https://github.com/Naman12678/MateStudy",
         "liveDemo": "https://mate-study.vercel.app/",
-        "isFeatured": true,
+        "isFeatured": false,
         "image": ""
       }
     ]
