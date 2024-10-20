@@ -59,7 +59,7 @@
         "id": 6,
         "title": "Weather App",
         "slug": "weather",
-        "description": "A simple Weather App to know the nearby weather",
+        "description": "The Weather Project is a dynamic web application designed to provide users with real-time weather information for locations worldwide. Built using React, Vite, and Tailwind CSS, the application offers an intuitive interface that allows users to search for any city and retrieve current weather conditions, including temperature, humidity, wind speed, and weather forecasts.",
         "techStack": ["React", "JavaScript", "Tailwind CSS"],
         "githubLink": "https://github.com/Naman12678/weather",
         "liveDemo": "https://weather-sable-xi.vercel.app/",
