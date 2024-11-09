@@ -98,6 +98,17 @@
         "liveDemo": "https://mate-study.vercel.app/",
         "isFeatured": false,
         "image": ""
+      },
+      {
+        "id": 7,
+        "title": "Weather Extension",
+        "slug": "weather-extension",
+        "description": "The Weather Extension provides real-time weather updates for your current location or any city of your choice.Built with JavaScript and Tailwind CSS, this extension offers a seamless experience with detailed weather information, including temperature, humidity, wind speed, and more.",
+        "techStack": ["JavaScript", "Tailwind CSS", "Chrome Extensions API"],
+        "githubLink": "https://github.com/Naman12678/weatherExtension",
+        "liveDemo": "https://microsoftedge.microsoft.com/addons/detail/weather-notifier/imdgnpjepbklifjmgpgfhnmlibcoocfj",
+        "isFeatured": true,
+        "image": ""
       }
     ]
   }
