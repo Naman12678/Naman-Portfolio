@@ -6,8 +6,6 @@ import { TextGenerateEffect } from "./ui/text-generate-effect";
 import Navbar from "./Navbar";
 
 const aboutMe = `
-I am a human.I breathe oxygen.
-I recharge myself with vegetarian food.
 I am a passionate developer, constantly learning and improving my skills. With a strong background in web development and a focus on React and Tailwind CSS, I build user-friendly applications that solve real-world problems. Let's build something amazing together!`;
 
 export function HeroSection() {
@@ -35,7 +33,7 @@ export function HeroSection() {
 
         {/* Resume Download Button */}
         <a
-          href="https://drive.google.com/file/d/1KAnDLVhUOdFBRgTiPNGqQ0hcYPulOxcP/view?usp=drive_link"
+          href="https://drive.google.com/file/d/15tEdyas7tTvnV0Cj4FwCGI7nJskFLUaq/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-black dark:bg-white rounded-full w-fit text-white dark:text-black px-4 py-2"

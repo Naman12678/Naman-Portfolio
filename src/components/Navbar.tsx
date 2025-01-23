@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import React, { useState } from "react";
 import { Menu, MenuItem, HoveredLink } from "./ui/navbar-menu";
@@ -9,17 +9,10 @@ import { motion } from "framer-motion";
 function Navbar({ className }: { className?: string }) {
     const [active, setActive] = useState<string | null>(null);
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-    const [showContactOptions, setShowContactOptions] = useState(false); // New state for contact options
 
     // Toggle the mobile menu
     const toggleMobileMenu = () => {
         setIsMobileMenuOpen(!isMobileMenuOpen);
-        setShowContactOptions(false); // Reset contact options on menu toggle
-    };
-
-    // Toggle the contact options
-    const toggleContactOptions = () => {
-        setShowContactOptions(!showContactOptions);
     };
 
     return (
@@ -60,17 +53,9 @@ function Navbar({ className }: { className?: string }) {
                     <Link href={"/projects"}>
                         <MenuItem setActive={setActive} active={active} item="My Projects"></MenuItem>
                     </Link>
-                    <MenuItem
-                      setActive={setActive} active={active} item="Contact Me"
-                    >
-                      <div className="flex flex-col space-y-4 text-sm">
-                        <HoveredLink href="https://www.linkedin.com/in/naman-sharma-50588528b/">Linkedin</HoveredLink>
-                        <HoveredLink href="https://x.com/NamanSharm31165">X</HoveredLink>
-                        <HoveredLink href="https://ig.me/m/namansharma12678">Instagram</HoveredLink>
-                        <HoveredLink href="https://wa.me/917439342924">Whatsapp</HoveredLink>
-                        <HoveredLink href="mailto:namansharma12678@gmail.com">Mail</HoveredLink>
-                      </div>
-                    </MenuItem>
+                    <Link href="/contact">
+                        <MenuItem setActive={setActive} active={active} item="Contact Me"></MenuItem>
+                    </Link>
                 </Menu>
             </div>
 
@@ -104,44 +89,21 @@ function Navbar({ className }: { className?: string }) {
                             </svg>
                         </button>
 
-                        {/* Conditional Rendering for Menu or Contact Options */}
-                        {!showContactOptions ? (
-                            <ul className="space-y-6 text-white text-lg">
-                                <li>
-                                    <Link href="/" onClick={toggleMobileMenu}>Home</Link>
-                                </li>
-                                <li>
-                                    <Link href="/skills" onClick={toggleMobileMenu}>My Skills</Link>
-                                </li>
-                                <li>
-                                    <Link href="/projects" onClick={toggleMobileMenu}>My Projects</Link>
-                                </li>
-                                <li>
-                                    <button onClick={toggleContactOptions}>Contact Me</button>
-                                </li>
-                            </ul>
-                        ) : (
-                            <ul className="space-y-6 text-white text-lg">
-                                <li>
-                                    <HoveredLink href="https://www.linkedin.com/in/naman-sharma-50588528b/" onClick={toggleMobileMenu}>Linkedin</HoveredLink>
-                                </li>
-                                <li>
-                                    <HoveredLink href="https://x.com/NamanSharm31165" onClick={toggleMobileMenu}>X</HoveredLink>
-                                </li>
-                                <li>
-                                    <HoveredLink href="https://ig.me/m/namansharma12678" onClick={toggleMobileMenu}>Instagram</HoveredLink>
-                                </li>
-                                <li>
-                                    <HoveredLink href="https://wa.me/917439342924" onClick={toggleMobileMenu}>Whatsapp</HoveredLink>
-                                </li>
-                                <li>
-                                    <HoveredLink href="mailto:namansharma12678@gmail.com" onClick={toggleMobileMenu}>Mail</HoveredLink>
-                                </li>
-                                <li>
-                                    <button onClick={toggleContactOptions}>Back to Menu</button>
-                                </li>
-                            </ul>
-                        )}
+                        {/* Mobile Menu Items */}
+                        <ul className="space-y-6 text-white text-lg">
+                            <li>
+                                <Link href="/" onClick={toggleMobileMenu}>Home</Link>
+                            </li>
+                            <li>
+                                <Link href="/skills" onClick={toggleMobileMenu}>My Skills</Link>
+                            </li>
+                            <li>
+                                <Link href="/projects" onClick={toggleMobileMenu}>My Projects</Link>
+                            </li>
+                            <li>
+                                <Link href="/contact" onClick={toggleMobileMenu}>Contact Me</Link>
+                            </li>
+                        </ul>
                     </div>
                 </motion.div>
             )}
