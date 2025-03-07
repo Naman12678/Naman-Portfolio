@@ -78,7 +78,7 @@
         "image": ""
       },
       {
-        "id": 7,
+        "id": 8,
         "title": "Currency Converter",
         "slug": "currency-converter",
         "description": "The Currency Converter project is a user-friendly web application built with React, Vite, and Tailwind CSS. It allows users to seamlessly convert amounts between various currencies using real-time data from the CoinMarketCap API. With a clean and responsive design, the application features a simple interface where users can select their desired currencies and input the amount to be converted.",
@@ -89,7 +89,7 @@
         "image": ""
       },
       {
-        "id": 8,
+        "id": 9,
         "title": "StudyMate",
         "slug": "Mate-study",
         "description": "An incomplete project containing the UI elements of online study buddy platform",
@@ -100,7 +100,7 @@
         "image": ""
       },
       {
-        "id": 7,
+        "id": 10,
         "title": "Weather Extension",
         "slug": "weather-extension",
         "description": "The Weather Extension provides real-time weather updates for your current location or any city of your choice.Built with JavaScript and Tailwind CSS, this extension offers a seamless experience with detailed weather information, including temperature, humidity, wind speed, and more.",

@@ -18,14 +18,14 @@ function Projects() {
     const featuredProjects = projectData.projects.filter((project: Project) => project.isFeatured)
 
     return (
-        <div className='py-12 bg-black h-auto md:h-[40rem] w-full rounded-md flex flex-col items-center justify-center relative overflow-hidden mx-auto md:py-0'>
-            <Navbar/>
+        <div className="py-12 bg-black min-h-screen w-full rounded-md flex flex-col items-center justify-start relative overflow-hidden mx-auto md:py-0">
+            <Navbar />
             <div>
                 <div className="text-center mt-28">
                     <p className="mt-48 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">{`What I've Built`}</p>
                 </div>
             </div>
-            <div className='mt-10 mx-8'>
+            <div className="mt-10 mx-8 overflow-y-auto">
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
                     {featuredProjects.map((project: Project) => (
                         <div key={project.id} className="flex justify-center">
