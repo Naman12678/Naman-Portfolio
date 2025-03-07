@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import { Menu, MenuItem } from "./ui/navbar-menu";
+import { HoveredLink, Menu, MenuItem } from "./ui/navbar-menu";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 import { motion } from "framer-motion";
@@ -53,9 +53,18 @@ function Navbar({ className }: { className?: string }) {
                     <Link href={"/projects"}>
                         <MenuItem setActive={setActive} active={active} item="My Projects"></MenuItem>
                     </Link>
-                    <Link href="/contact">
-                        <MenuItem setActive={setActive} active={active} item="Contact Me"></MenuItem>
-                    </Link>
+                    <MenuItem
+                      setActive={setActive} active={active} item="Contact Me"
+                    >
+                      <div className="flex flex-col space-y-4 text-sm">
+                        <HoveredLink href="https://www.linkedin.com/in/naman-sharma-50588528b/" target="_blank">Linkedin</HoveredLink>
+                        <HoveredLink href="https://x.com/NamanSharm31165" target="_blank">X</HoveredLink>
+                        <HoveredLink href="https://ig.me/m/namansharma12678" target="_blank">Instagram</HoveredLink>
+                        <HoveredLink href="https://wa.me/917439342924" target="_blank">Whatsapp</HoveredLink>
+                        <HoveredLink href="mailto:namansharma12678@gmail.com">Mail</HoveredLink>
+                      </div>
+                    </MenuItem>
+
                 </Menu>
             </div>
 
