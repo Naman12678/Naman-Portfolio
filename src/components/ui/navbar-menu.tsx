@@ -107,9 +107,30 @@ export const ProductItem = ({
   );
 };
 
-export const HoveredLink = ({ children, ...rest }: LinkProps & { children: React.ReactNode }) => {
-  return (
+export const HoveredLink = ({
+  children,
+  target,
+  href,
+  ...rest
+}: LinkProps & {
+  children: React.ReactNode;
+  target?: "_blank" | "_self" | "_parent" | "_top";
+}) => {
+  const isExternal = target === "_blank";
+
+  return isExternal ? (
+    <a
+      href={href as string} // Cast `href` to string for external links
+      target={target}
+      rel={isExternal ? "noopener noreferrer" : undefined}
+      className="text-neutral-700 dark:text-neutral-200 hover:text-black"
+      {...rest}
+    >
+      {children}
+    </a>
+  ) : (
     <Link
+      href={href}
       {...rest}
       className="text-neutral-700 dark:text-neutral-200 hover:text-black"
     >

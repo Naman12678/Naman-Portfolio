@@ -18,16 +18,15 @@ function Skills() {
     const featuredSkills = skillData.skills.filter((skill: Skill) => skill.isFeatured)
 
     return (
-        <div className='py-12 bg-black h-auto w-full rounded-md flex flex-col items-center justify-center relative overflow-hidden mx-auto'>
+        <div className="py-12 bg-black min-h-screen w-full flex flex-col items-center justify-start relative overflow-hidden">
             <Navbar />
-            <div>
-                <div className="text-center mt-48">
-                    <h2 className="text-base text-teal-600 font-semibold tracking-wide uppercase">My Skills</h2>
-                    <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">What I Excel In</p>
-                </div>
+            {/* Heading Section */}
+            <div className="text-center mt-48">
+                <h2 className="text-base text-teal-600 font-semibold tracking-wide uppercase">My Skills</h2>
+                <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">What I Excel In</p>
             </div>
-            {/* Scrollable Section */}
-            <div className='mt-10 mx-8 overflow-auto max-h-[30rem] w-full'>
+            {/* Skills Section */}
+            <div className="mt-10 mx-8 w-full">
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
                     {featuredSkills.map((skill: Skill) => (
                         <div key={skill.id} className="flex justify-center">
