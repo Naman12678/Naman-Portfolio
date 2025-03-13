@@ -136,41 +136,49 @@ function Navbar({ className }: { className?: string }) {
                     animate={{ opacity: 1 }}
                     className="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center z-50"
                 >
-                    <div className="relative text-center bg-white rounded-lg p-6 shadow-lg dark:bg-black">
-                        {/* Close Button for Contact Page */}
-                        <button
-                            onClick={closeContactPage}
-                            className="absolute top-4 right-4"
-                            aria-label="Close contact page"
+                {/* Translucent Background Container */}
+                <div className="relative w-full h-full bg-white bg-opacity-80 dark:bg-black dark:bg-opacity-80 flex flex-col items-center justify-center p-6 z-50">
+                    {/* Close Button */}
+                    <button
+                        onClick={closeContactPage}
+                        className="absolute top-4 right-4 dark:text-white text-black"
+                        aria-label="Close contact page"
+                    >
+                        <svg
+                            className="w-6 h-6"
+                            fill="none"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
                         >
-                            <svg
-                                className="w-6 h-6 text-black dark:text-white"
-                                fill="none"
-                                stroke="currentColor"
-                                viewBox="0 0 24 24"
-                                xmlns="http://www.w3.org/2000/svg"
-                            >
-                                <path
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                    strokeWidth="2"
-                                    d="M6 18L18 6M6 6l12 12"
-                                />
-                            </svg>
-                        </button>
-
-                        {/* Contact Links */}
-                        <div className="space-y-4">
-                            <HoveredLink href="https://www.linkedin.com/in/naman-sharma-50588528b/" target="_blank">Linkedin</HoveredLink>
-                            <HoveredLink href="https://x.com/NamanSharm31165" target="_blank">X</HoveredLink>
-                            <HoveredLink href="https://wa.me/917439342924" target="_blank">Whatsapp</HoveredLink>
-                            <HoveredLink href="mailto:namansharma12678@gmail.com">Mail</HoveredLink>
-                        </div>
+                            <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                strokeWidth="2"
+                                d="M6 18L18 6M6 6l12 12"
+                            />
+                        </svg>
+                    </button>
+                    {/* Contact Links */}
+                    <div className="flex flex-col items-center space-y-6 text-lg">
+                        <HoveredLink href="https://www.linkedin.com/in/naman-sharma-50588528b/" target="_blank">
+                            Linkedin
+                        </HoveredLink>
+                        <HoveredLink href="https://x.com/NamanSharm31165" target="_blank">
+                            X
+                        </HoveredLink>
+                        <HoveredLink href="https://wa.me/917439342924" target="_blank">
+                            Whatsapp
+                        </HoveredLink>
+                        <HoveredLink href="mailto:namansharma12678@gmail.com">
+                            Mail
+                        </HoveredLink>
                     </div>
-                </motion.div>
-            )}
-        </div>
-    );
+                </div>
+            </motion.div>
+        )}
+            </div>
+        );
 }
 
 export default Navbar;
