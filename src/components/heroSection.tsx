@@ -33,7 +33,7 @@ export function HeroSection() {
 
         {/* Resume Download Button */}
         <a
-          href="https://drive.google.com/file/d/15tEdyas7tTvnV0Cj4FwCGI7nJskFLUaq/view?usp=sharing"
+          href="https://drive.google.com/file/d/1rMotm5xz_Uvlpe1GfMOELQM_SGzYQzvw/view?usp=drive_link"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-black dark:bg-white rounded-full w-fit text-white dark:text-black px-4 py-2"
