@@ -62,7 +62,7 @@
     },
     {
       "id": 7,
-      "title": " React Vite",
+      "title": "React Vite",
       "slug": "vite",
       "description": "Accelerate the development experience with Vite, a fast build tool and development server.",
       "proficiency": "Intermediate",
@@ -79,6 +79,16 @@
       "experience": "1 years",
       "isFeatured": true,
       "icon": "/skills/javascript.svg"
+    },
+    {
+      "id": 9,
+      "title": "Next.js",
+      "slug": "next-js",
+      "description": "Build server-rendered and statically generated web applications with Next.js for a seamless full-stack experience.",
+      "proficiency": "Advanced",
+      "experience": "1 year",
+      "isFeatured": true,
+      "icon": "/skills/nextjs.svg"
     }
   ]
 }

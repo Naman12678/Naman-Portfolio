@@ -13,61 +13,17 @@
       },
       {
         "id": 2,
-        "title": "E-Learning Platform",
-        "slug": "e-learning-platform",
-        "description": "A full-stack application for students and teachers to interact, manage courses, and schedule classes. Built using MERN stack.",
-        "techStack": ["MongoDB", "Express.js", "React", "Node.js"],
-        "githubLink": "https://github.com/yourusername/e-learning-platform",
-        "liveDemo": "https://yourelearningplatform.com",
-        "isFeatured": false,
-        "image": "/projects/elearning.jpg"
-      },
-      {
-        "id": 3,
-        "title": "Task Management App",
-        "slug": "task-management-app",
-        "description": "A productivity app to manage daily tasks with features like deadlines, reminders, and categories, built with Next.js and TypeScript.",
-        "techStack": ["Next.js", "TypeScript", "MongoDB"],
-        "githubLink": "https://github.com/yourusername/task-management-app",
-        "liveDemo": "https://yourtaskapp.com",
-        "isFeatured": false,
-        "image": "/projects/task-app.jpg"
-      },
-      {
-        "id": 4,
-        "title": "E-Commerce Store",
-        "slug": "e-commerce-store",
-        "description": "An e-commerce store with features like product listings, shopping cart, and payments integration using Stripe.",
-        "techStack": ["React", "Node.js", "MongoDB", "Stripe API"],
-        "githubLink": "https://github.com/yourusername/e-commerce-store",
-        "liveDemo": "https://yourecommercestore.com",
-        "isFeatured": false,
-        "image": "/projects/ecommerce.jpg"
-      },
-      {
-        "id": 5,
-        "title": "Blog Platform",
-        "slug": "blog-platform",
-        "description": "A platform for users to write and publish blog posts with features like user authentication, commenting, and tags.",
-        "techStack": ["Next.js", "TypeScript", "Firebase"],
-        "githubLink": "https://github.com/yourusername/blog-platform",
-        "liveDemo": "https://yourblogplatform.com",
-        "isFeatured": false,
-        "image": "/projects/blog-platform.jpg"
-      },
-      {
-        "id": 6,
         "title": "Weather App",
         "slug": "weather",
         "description": "The Weather Project is a dynamic web application designed to provide users with real-time weather information for locations worldwide. Built using React, Vite, and Tailwind CSS, the application offers an intuitive interface that allows users to search for any city and retrieve current weather conditions, including temperature, humidity, wind speed, and weather forecasts.",
         "techStack": ["React", "JavaScript", "Tailwind CSS"],
         "githubLink": "https://github.com/Naman12678/weather",
         "liveDemo": "https://weather-sable-xi.vercel.app/",
-        "isFeatured": true,
+        "isFeatured": false,
         "image": ""
       },
       {
-        "id": 7,
+        "id": 3,
         "title": "Food Plaza",
         "slug": "food-plaza",
         "description": "The Food Plaza project is a web application designed to provide users with access to an extensive collection of food recipes, leveraging an API that stores about 2.3 million recipes. Built using React, Vite, and Tailwind CSS, this application offers a user-friendly platform where food enthusiasts can discover, explore, and share a wide variety of delicious recipes from different cuisines.",
@@ -78,29 +34,18 @@
         "image": ""
       },
       {
-        "id": 8,
+        "id": 4,
         "title": "Currency Converter",
         "slug": "currency-converter",
         "description": "The Currency Converter project is a user-friendly web application built with React, Vite, and Tailwind CSS. It allows users to seamlessly convert amounts between various currencies using real-time data from the CoinMarketCap API. With a clean and responsive design, the application features a simple interface where users can select their desired currencies and input the amount to be converted.",
         "techStack": ["React", "JavaScript", "Tailwind CSS"],
         "githubLink": "https://github.com/Naman12678/CurrencyConverter",
         "liveDemo": "https://currencyconverter-amber.vercel.app/",
-        "isFeatured": true,
-        "image": ""
-      },
-      {
-        "id": 9,
-        "title": "StudyMate",
-        "slug": "Mate-study",
-        "description": "An incomplete project containing the UI elements of online study buddy platform",
-        "techStack": ["React", "JavaScript", "Tailwind CSS"],
-        "githubLink": "https://github.com/Naman12678/MateStudy",
-        "liveDemo": "https://mate-study.vercel.app/",
         "isFeatured": false,
         "image": ""
       },
       {
-        "id": 10,
+        "id": 5,
         "title": "Weather Extension",
         "slug": "weather-extension",
         "description": "The Weather Extension provides real-time weather updates for your current location or any city of your choice.Built with JavaScript and Tailwind CSS, this extension offers a seamless experience with detailed weather information, including temperature, humidity, wind speed, and more.",
@@ -109,7 +54,18 @@
         "liveDemo": "https://microsoftedge.microsoft.com/addons/detail/weather-notifier/imdgnpjepbklifjmgpgfhnmlibcoocfj",
         "isFeatured": true,
         "image": ""
-      }
+      },
+      {
+        "id": 6,
+        "title": "Cookie Guardian",
+        "slug": "cookie-guardian",
+        "description": "Cookie Guardian is a privacy-first browser extension to view, manage, and delete cookies with full control. Built using React and the WebExtensions API, it features real-time cookie inspection, one-click deletion/blocking, auto-cleaning of persistent cookies, and a clean, responsive UI.",
+        "techStack": ["React", "Tailwind CSS", "WebExtensions API"],
+        "githubLink": "https://github.com/Naman12678/Cookie-Guardian", 
+        "liveDemo": "https://cookie-guardian.vercel.app/",
+        "isFeatured": true,
+        "image": ""
+      }      
     ]
   }
   
